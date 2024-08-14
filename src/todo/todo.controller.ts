@@ -10,6 +10,7 @@ import {
 import { TodoService } from './todo.service';
 import { ToDo } from './schemas/todo.schema';
 
+// Controller for the todo service
 @Controller('todos')
 export class TodoController {
   constructor(private readonly todoService: TodoService) {}
